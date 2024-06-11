@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#teams {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#redTeam, #blueTeam {
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+#redTeam {
+    background-color: #ff4c4c;
+}
+
+#blueTeam {
+    background-color: #4c6eff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+
+#playerList {
+    margin-top: 20px;
+}
+
+#playerList ul {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
